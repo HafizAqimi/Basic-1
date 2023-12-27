@@ -45,6 +45,7 @@ public class fa1servlet2_ver2 extends HttpServlet {
             System.out.println("The system is destroyed");
         }catch(Exception ex){  
         }
+        response.setHeader("Accept-Language", "Bahasa Inggeris");
     }
     @Override
     public String getServletInfo() {
